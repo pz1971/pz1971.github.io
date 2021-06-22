@@ -15,7 +15,10 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    router: {
+      base: '/pz1971.github.io/'
+    }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
