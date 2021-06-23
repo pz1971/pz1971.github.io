@@ -1,11 +1,15 @@
 <template>
   <div>
     <div class="center">
-      <img class="dp" src="~/assets/resources/dp.jpg">
+      <img class="dp" src="~/assets/dp.jpg">
       <div class="greeting">Hi! I'm</div>
       <div class="parvez-mia">Parvez Mia</div>
       <div class="pz1971">(pz1971)</div>
-      <div class="bio"><span class="bioTitle">Competitive Programmer</span> || <span class="bioTitle">Undergrad Student</span> || <span class="bioTitle">Web developer</span></div>
+    </div>
+    <div class="bio">
+      <div class="bio-item">Competitive Programmer</div><div class="separator"></div>
+      <div class="bio-item">Undergrad Student</div><div class="separator"></div>
+      <div class="bio-item">Software Developer</div>
     </div>
   </div>
 </template>
@@ -15,6 +19,11 @@ export default {}
 </script>
 
 <style>
+:root {
+  --medium-font-size: 1.5rem;
+  --large-font-size: 2.5rem;
+  --small-font-size: 1.2rem;
+}
 
 .center {
   margin: auto;
@@ -25,33 +34,47 @@ export default {}
 
 .dp {
   border-radius: 50%;
-  max-width: 250px;
+  max-width: 15rem;
+  padding-bottom: 2%;
 }
 
 .greeting {
-  font-size: 1.5rem;
+  font-size: var(--medium-font-size);
   font-family: monospace;
 }
 .parvez-mia {
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: var(--large-font-size);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .pz1971 {
-  font-size: 1.5rem;
+  font-size: var(--medium-font-size);
   font-family: monospace;
 }
 .pz1971:hover {
   /* color: #fe4a4b; */
   transform: rotate(10deg);
 }
-.bio {
-  font-size: 1.5rem;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.bioTitle:hover{
-  display: inline-block;
-  transform: scale(1.05, 1.05);
-}
 
+.bio {
+  margin: auto;
+  text-align: center;
+  padding: 1ch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.separator {
+  width: 0.3rem;
+  background-color: black;
+  margin-left:  1ch;
+  margin-right: 1ch;
+}
+.bio-item {
+  font-size: var(--small-font-size);
+}
+.bio-item:hover {
+  transform: scale(1.05, 1.05);
+  color:crimson;
+}
 </style>
