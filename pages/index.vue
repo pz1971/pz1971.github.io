@@ -1,5 +1,6 @@
 <template>
   <div>
+    <head />
     <div class="center">
       <img class="dp" src="~/assets/dp.jpg">
       <div class="greeting">Hi! I'm</div>
@@ -15,7 +16,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head: {
+    title: 'pz1971 Blog - home',
+    meta: [
+      {
+        hid: 'pz1971 hompage, bio, about, blog, parvez mia',
+        name: 'pz1971 blog',
+        content: 'Hi! I\'m Parvez Mia (pz1971). I\'m a Competitive Programmer, currently doing undergraduage (B.Sc.) in CSE and I\'m working to be a software developer.'
+      }
+    ]
+  }
+}
 </script>
 
 <style>
