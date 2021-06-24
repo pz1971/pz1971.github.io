@@ -24,6 +24,10 @@ export default {
         hid: 'pz1971 hompage, bio, about, blog, parvez mia',
         name: 'pz1971 blog',
         content: 'Hi! I\'m Parvez Mia (pz1971). I\'m a Competitive Programmer, currently doing undergraduage (B.Sc.) in CSE and I\'m working to be a software developer.'
+      },
+      {
+        name: 'google-site-verification',
+        content: 'n9xiG0RwXxlUsgtmfW7Mf3zoKr-dD-oaYA4VVrWnLyg'
       }
     ]
   }
