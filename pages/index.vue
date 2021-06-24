@@ -27,7 +27,7 @@ export default {
       },
       {
         name: 'google-site-verification',
-        content: 'n9xiG0RwXxlUsgtmfW7Mf3zoKr-dD-oaYA4VVrWnLyg'
+        content: 'SUWESRJ1uPLBQuF_S3xiRkjWx9KLqPG8zRTJiI6YgLs'
       }
     ]
   }
