@@ -12,6 +12,12 @@
       <div class="bio-item">Undergrad Student</div><div class="separator"></div>
       <div class="bio-item">Software Developer</div>
     </div>
+    <div class="contact">
+      <a href="mailto: parvez.pz1971@gmail.com"><img class="social-icon" src="~/assets/social-media-icons/mail-icon.png" alt="email: parvez.pz1971@gmail.com"></a>
+      <a href="https://www.linkedin.com/in/pz1971/"><img class="social-icon" src="~/assets/social-media-icons/linkedin-icon.png" alt="linked-in: https://www.linkedin.com/in/pz1971/"></a>
+      <a href="https://github.com/pz1971/"><img class="social-icon" src="~/assets/social-media-icons/github-icon.png" alt="github: https://github.com/pz1971/"></a>
+      <a href="https://twitter.com/pz_parvez"><img class="social-icon" src="~/assets/social-media-icons/twitter-icon.png" alt="twitter: https://twitter.com/pz_parvez"></a>
+    </div>
   </div>
 </template>
 
@@ -92,5 +98,21 @@ export default {
 .bio-item:hover {
   transform: scale(1.05, 1.05);
   color:crimson;
+}
+
+.contact {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.social-icon {
+  max-width: 4rem;
+  padding-left: 1ch;
+  padding-right: 1ch;
+  margin-top: 1ch;
+}
+.social-icon:hover{
+  transform: scale(1.1, 1.1);
 }
 </style>
