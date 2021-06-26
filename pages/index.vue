@@ -1,20 +1,42 @@
 <template>
   <div>
     <head />
-    <div class="center">
+    <div class="wrapper">
       <img class="dp" src="~/assets/dp.jpg">
-      <div class="greeting">Hi! I'm</div>
-      <div class="parvez-mia">Parvez Mia</div>
-      <div class="pz1971">(pz1971)</div>
+      <div class="greeting">
+        Hi! I'm
+      </div>
+      <div class="parvez-mia">
+        Parvez Mia
+      </div>
+      <div class="pz1971">
+        (pz1971)
+      </div>
     </div>
     <div class="bio">
-      <div class="bio-item">Competitive Programmer</div><div class="separator"></div>
-      <div class="bio-item">Undergrad Student</div><div class="separator"></div>
-      <div class="bio-item">Software Developer</div>
+      <div class="bio-item">
+        Competitive Programmer
+      </div><div class="separator" />
+      <div class="bio-item">
+        Undergrad Student
+      </div><div class="separator" />
+      <div class="bio-item">
+        Software Developer
+      </div>
     </div>
     <contact-me />
     <horizontal-line />
-    <nuxt-link class="about-button" to="/about"><btn-1 text="About" /></nuxt-link>
+    <div class="button-group">
+      <nuxt-link class="about-button" to="/about">
+        <btn-1 text="About Me" />
+      </nuxt-link>
+      <nuxt-link class="about-button" to="/portfolio">
+        <btn-1 text="My Works" />
+      </nuxt-link>
+      <nuxt-link class="about-button" to="/blogs">
+        <btn-1 text="Blog" />
+      </nuxt-link>
+    </div>
   </div>
 </template>
 
@@ -42,13 +64,9 @@ export default {
 </script>
 
 <style>
-:root {
-  --medium-font-size: 1.5rem;
-  --large-font-size: 2.5rem;
-  --small-font-size: 1.2rem;
-}
+@import '~/assets/styles/variables.css';
 
-.center {
+.wrapper {
   margin: auto;
   width: 50%;
   padding: 10px;
@@ -57,8 +75,8 @@ export default {
 
 .dp {
   border-radius: 50%;
-  max-width: 15rem;
-  padding-bottom: 2%;
+  max-width: 13rem;
+  margin-bottom: 2%;
 }
 
 .greeting {
@@ -97,6 +115,13 @@ export default {
 }
 .bio-item:hover {
   transform: scale(1.05, 1.05);
-  color:#fe1818;
+  color: red;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1ch;
 }
 </style>

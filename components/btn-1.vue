@@ -1,10 +1,15 @@
 <template>
-  <button>{{text}}</button>
+  <button>{{ text }}</button>
 </template>
 
 <script>
 export default {
-  props: ['text']
+  props: {
+    text: {
+      type: String,
+      required: true
+    }
+  }
 }
 </script>
 
@@ -16,11 +21,14 @@ button {
   width: fit-content;
   border-radius: 2%;
   font-size: var(--small-font-size);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   cursor: pointer;
   background: white;
   color: black;
   box-shadow: 2px 2px;
+  margin-left: 1ch;
+  margin-right: 1ch;
 }
 button:hover{
   animation-name: btn-animation;
@@ -33,8 +41,9 @@ button:hover{
     color: black;
   }
   100% {
-    background:#fe1818;
+    background:red;
     color: white;
+    transform: scale(0.9, 0.9);
   }
 }
 </style>
