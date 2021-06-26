@@ -33,7 +33,7 @@
       <nuxt-link class="about-button" to="/portfolio">
         <btn-1 text="My Works" />
       </nuxt-link>
-      <nuxt-link class="about-button" to="/blogs">
+      <nuxt-link class="about-button" to="/blog">
         <btn-1 text="Blog" />
       </nuxt-link>
     </div>
