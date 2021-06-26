@@ -8,7 +8,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .hr {
   margin-left : 20%;
   margin-right: 20%;

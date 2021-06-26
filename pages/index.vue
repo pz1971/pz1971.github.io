@@ -14,15 +14,16 @@
     </div>
     <contact-me />
     <horizontal-line />
-    <nuxt-link class="about-button" to="/about"><button class="btn-1">About</button></nuxt-link>
+    <nuxt-link class="about-button" to="/about"><btn-1 text="About" /></nuxt-link>
   </div>
 </template>
 
 <script>
+import Btn1 from '~/components/btn-1.vue'
 import contactMe from '~/components/contact-me.vue'
 import HorizontalLine from '~/components/horizontal-line.vue'
 export default {
-  components: { contactMe, HorizontalLine },
+  components: { contactMe, HorizontalLine, Btn1 },
   head: {
     title: 'pz1971 Blog - home',
     meta: [
@@ -74,7 +75,6 @@ export default {
   font-family: monospace;
 }
 .pz1971:hover {
-  /* color: #fe4a4b; */
   transform: rotate(10deg);
 }
 
@@ -97,34 +97,6 @@ export default {
 }
 .bio-item:hover {
   transform: scale(1.05, 1.05);
-  color:crimson;
-}
-.btn-1 {
-  min-height: 2rem;
-  height: fit-content;
-  min-width: 8rem;
-  width: fit-content;
-  border-radius: 2%;
-  font-size: var(--small-font-size);
-  text-align: center;
-  cursor: pointer;
-  background: white;
-  color: black;
-  /* box-shadow: 2px 2px; */
-}
-.btn-1:hover{
-  animation-name: btn-1-animation;
-  animation-duration: 0.3s;
-  animation-fill-mode: forwards;
-}
-@keyframes btn-1-animation {
-  0% {
-    background: white;
-    color: black;
-  }
-  100% {
-    background:#fe1818;
-    color: white;
-  }
+  color:#fe1818;
 }
 </style>
