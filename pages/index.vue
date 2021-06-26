@@ -14,6 +14,7 @@
     </div>
     <contact-me />
     <horizontal-line />
+    <nuxt-link class="about-button" to="/about"><button class="btn-1">About</button></nuxt-link>
   </div>
 </template>
 
@@ -98,5 +99,32 @@ export default {
   transform: scale(1.05, 1.05);
   color:crimson;
 }
-
+.btn-1 {
+  min-height: 2rem;
+  height: fit-content;
+  min-width: 8rem;
+  width: fit-content;
+  border-radius: 2%;
+  font-size: var(--small-font-size);
+  text-align: center;
+  cursor: pointer;
+  background: white;
+  color: black;
+  /* box-shadow: 2px 2px; */
+}
+.btn-1:hover{
+  animation-name: btn-1-animation;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+@keyframes btn-1-animation {
+  0% {
+    background: white;
+    color: black;
+  }
+  100% {
+    background:#fe1818;
+    color: white;
+  }
+}
 </style>
