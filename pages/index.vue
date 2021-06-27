@@ -141,6 +141,7 @@ export default {
     flex-direction: column;
     flex-wrap: nowrap;
     margin-top: 2ch;
+    margin-bottom: 5ch;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
