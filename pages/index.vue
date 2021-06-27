@@ -27,13 +27,13 @@
     <contact-me />
     <horizontal-line />
     <div class="button-group">
-      <nuxt-link class="about-button" to="/about">
+      <nuxt-link class="nav-buttons" to="/about">
         <btn-1 text="About Me" />
       </nuxt-link>
-      <nuxt-link class="about-button" to="/portfolio">
+      <nuxt-link class="nav-buttons" to="/portfolio">
         <btn-1 text="My Works" />
       </nuxt-link>
-      <nuxt-link class="about-button" to="/blog">
+      <nuxt-link class="nav-buttons" to="/blog">
         <btn-1 text="Blog" />
       </nuxt-link>
     </div>
@@ -68,8 +68,8 @@ export default {
 
 .wrapper {
   margin: auto;
-  width: 50%;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
@@ -122,6 +122,33 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 1ch;
+}
+.nav-buttons {
+  margin: 1ch;
+}
+
+@media only screen and (max-width: 450px) {
+  :root{
+    --small-font-size: 1rem ;
+    --medium-font-size: 1.25rem ;
+    --large-font-size: 1.5rem ;
+  }
+  .dp {
+    max-width: 10rem;
+  }
+  .button-group {
+    display:flexbox;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 2ch;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .nav-buttons {
+    margin: auto;
+    width: inherit;
+    margin-top: 0.5ch;
+  }
 }
 </style>

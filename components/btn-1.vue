@@ -18,7 +18,7 @@ button {
   min-height: 2rem;
   height: fit-content;
   min-width: 8rem;
-  width: fit-content;
+  width:inherit;
   border-radius: 2%;
   font-size: var(--small-font-size);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -27,8 +27,6 @@ button {
   background: white;
   color: black;
   box-shadow: 2px 2px;
-  margin-left: 1ch;
-  margin-right: 1ch;
 }
 button:hover{
   animation-name: btn-animation;
