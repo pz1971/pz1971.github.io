@@ -24,8 +24,10 @@
         Software Developer
       </div>
     </div>
-    <contact-me />
-    <horizontal-line />
+    <div class="contact-me-wrapper">
+      <contact-me />
+    </div>
+    <hr class="hr1">
     <div class="button-group">
       <nuxt-link class="nav-buttons" to="/about">
         <btn-1 text="About Me" />
@@ -43,9 +45,8 @@
 <script>
 import Btn1 from '~/components/btn-1.vue'
 import contactMe from '~/components/contact-me.vue'
-import HorizontalLine from '~/components/horizontal-line.vue'
 export default {
-  components: { contactMe, HorizontalLine, Btn1 },
+  components: { contactMe, Btn1 },
   head: {
     title: 'pz1971 Blog - home',
     meta: [
@@ -95,7 +96,10 @@ export default {
 .pz1971:hover {
   transform: rotate(10deg);
 }
-
+.contact-me-wrapper {
+  display: flex;
+  justify-content: center;
+}
 .bio {
   margin: auto;
   text-align: center;
@@ -117,7 +121,10 @@ export default {
   transform: scale(1.05, 1.05);
   color: red;
 }
-
+.hr1 {
+  margin-left: 20%;
+  margin-right: 20%;
+}
 .button-group {
   display: flex;
   flex-wrap: wrap;

@@ -18,7 +18,7 @@ export default {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     margin-top: 1ch;
     margin-bottom: 1ch;
 }
