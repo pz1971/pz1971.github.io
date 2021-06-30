@@ -1,13 +1,17 @@
 <template>
-  <div>
-    <img class="dp" src="~/assets/dp.jpg">
-    <div class="parvez-mia">
-      Parvez Mia
+  <div class="container">
+    <div class="wrapper1">
+      <img class="dp" src="~/assets/dp.jpg">
+      <div class="wrapper2">
+        <div class="name">
+          Parvez Mia
+        </div>
+        <div class="handle">
+          (pz1971)
+        </div>
+        <contact-me />
+      </div>
     </div>
-    <div class="pz1971">
-      (pz1971)
-    </div>
-    <contact-me />
   </div>
 </template>
 
@@ -19,19 +23,34 @@ export default {
 </script>
 
 <style>
+@import '~/assets/styles/variables.css';
+.container {
+  display: flex;
+  justify-content: center;
+}
 .dp {
   border-radius: 50%;
-  max-width: 13rem;
-  margin-bottom: 2%;
+  max-width: 12rem;
+  margin-right: 2%;
 }
-.parvez-mia {
+.name {
   font-weight: bold;
   font-size: var(--large-font-size);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.pz1971 {
+.handle {
   font-size: var(--medium-font-size);
   font-family: monospace;
+}
+.wrapper1 {
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+.wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 </style>
