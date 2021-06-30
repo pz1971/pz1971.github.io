@@ -1,15 +1,16 @@
 <template>
   <div>
     <head />
+    <!-- class names defines their identity -->
     <div class="wrapper">
       <img class="dp" src="~/assets/dp.jpg">
       <div class="greeting">
         Hi! I'm
       </div>
-      <div class="parvez-mia">
+      <div class="name">
         Parvez Mia
       </div>
-      <div class="pz1971">
+      <div class="handle">
         (pz1971)
       </div>
     </div>
@@ -25,6 +26,7 @@
       </div>
     </div>
     <div class="contact-me-wrapper">
+      <!-- contact-me properties are in components folder -->
       <contact-me />
     </div>
     <hr class="hr1">
@@ -84,16 +86,16 @@ export default {
   font-size: var(--medium-font-size);
   font-family: monospace;
 }
-.parvez-mia {
+.name {
   font-weight: bold;
   font-size: var(--large-font-size);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.pz1971 {
+.handle {
   font-size: var(--medium-font-size);
   font-family: monospace;
 }
-.pz1971:hover {
+.handle:hover {
   transform: rotate(10deg);
 }
 .contact-me-wrapper {
