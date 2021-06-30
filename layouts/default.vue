@@ -1,6 +1,7 @@
 <template>
   <div>
     <Nuxt />
+    <div class="footer" />
   </div>
 </template>
 
@@ -58,5 +59,9 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.footer {
+  height: 5rem;
 }
 </style>
