@@ -15,15 +15,69 @@
       </div>
     </div>
     <hr class="horizontal-line">
-    <!-- education section -->
+    <!-- skills section -->
     <div class="section">
       <h2>
         Skills
       </h2>
+      <ul>
+        <li>
+          <b>Programming Languages</b>
+        </li>
+        <div class="badges">
+          <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C">
+          <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
+          <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen" alt="python">
+          <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=black" alt="java">
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5">
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3">
+          <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascript">
+          <img src="https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=LaTeX&logoColor=white" alt="latex">
+          <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C Sharp">
+        </div>
+      </ul>
+      <ul>
+        <li>
+          <b>Frameworks</b>
+        </li>
+        <div class="badges">
+          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="node js">
+          <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="express js">
+          <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+          <img src="https://img.shields.io/badge/nuxt.js-00C58E?style=for-the-badge&logo=nuxtdotjs&logoColor=white" alt="Nuxt">
+        </div>
+      </ul>
+      <ul>
+        <li>
+          <b>Databases</b>
+        </li>
+        <div class="badges">
+          <img src="https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" alt="Microsoft SQL Server">
+          <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="Mongo DB">
+        </div>
+      </ul>
+      <ul>
+        <li>
+          <b>Cloud</b>
+        </li>
+        <div class="badges">
+          <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku">
+        </div>
+      </ul>
+      <ul>
+        <li>
+          <b>IDE</b>
+          <div class="badges">
+            <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Visual Studio Code">
+            <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white" alt="Visual Studio">
+          </div>
+        </li>
+      </ul>
     </div>
+    <!-- education section -->
     <div class="section">
       <h2>
-        Education
+        <b>Education</b>
       </h2>
       <ul>
         <li>
@@ -85,6 +139,11 @@ export default {
 .section {
   margin-left: 20%;
   margin-right: 20%;
+  margin-bottom: 2ch;
+}
+.badges {
+  margin-top: 1ch;
+  margin-left: 2ch
 }
 
 </style>
