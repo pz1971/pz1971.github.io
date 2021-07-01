@@ -15,6 +15,38 @@
       </div>
     </div>
     <hr class="horizontal-line">
+    <!-- Current Status section -->
+    <div class="section">
+      <h2>Status</h2>
+      <ul>
+        <li>
+          Learning:
+          <ul>
+            <li>
+              NUXT Framework (Basic)
+              <progress class="progress-bar" value="50" max="100" />
+            </li>
+          </ul>
+        </li>
+        <li>
+          Project:
+          <ul>
+            <li>
+              <a href="https://github.com/pz1971/pz1971.github.io">pz1971.github.io</a>
+              <progress class="progress-bar" value="65" max="100" />
+            </li>
+          </ul>
+        </li>
+        <li>
+          Book reading:
+          <ul>
+            <li>
+              [empty]
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
     <!-- skills section -->
     <div class="section">
       <h2>
@@ -180,6 +212,9 @@ export default {
 .badges {
   margin-top: 1ch;
   margin-left: 2ch
+}
+.progress-bar{
+  margin-left: 2ch;
 }
 
 </style>
