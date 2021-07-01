@@ -114,6 +114,21 @@
         <li><a href="https://toph.co/c/selise-coding-challenge-2020">SELISE Coding Challenge 2020:</a> <b>44th</b></li>
       </ul>
     </div>
+    <!-- Certifications -->
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Problem Solving (Intermediate) <a href="https://www.hackerrank.com/certificates/3a9efc97c913">Certificate</a></li>
+      </ul>
+    </div>
+    <!-- Languages section -->
+    <div class="section">
+      <h2>Languages</h2>
+      <ul>
+        <li>Bangla (Native)</li>
+        <li>English</li>
+      </ul>
+    </div>
   </div>
 </template>
 
