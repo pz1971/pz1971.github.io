@@ -22,6 +22,17 @@
       </h2>
       <ul>
         <li>
+          <b>Technical Skills</b>
+          <ul>
+            <li>Competitive Programming</li>
+            <li>Programming Problem Solving</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Object Oriented Programming</li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
           <b>Programming Languages</b>
         </li>
         <div class="badges">
@@ -91,6 +102,16 @@
             </li>
           </ul>
         </li>
+      </ul>
+    </div>
+    <!-- Achievement section -->
+    <div class="section">
+      <h2>Achievements</h2>
+      <ul>
+        <li><a href="https://codeforces.com/profile/pz1971">Codeforces</a> Max Rating: 1683 (<b style="color: blue;">Expert</b>)</li>
+        <li><a href="https://www.codechef.com/users/pz1971">Codechef</a> Max Rating: 1825 (<b style="color: purple;">4 stars</b>)</li>
+        <li><a href="https://toph.co/c/bracu-traction-inter-university">BRACU Traction Inter University Individual Programming Contest:</a> <b>22nd</b></li>
+        <li><a href="https://toph.co/c/selise-coding-challenge-2020">SELISE Coding Challenge 2020:</a> <b>44th</b></li>
       </ul>
     </div>
   </div>
