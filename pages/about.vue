@@ -179,8 +179,9 @@ export default {
 }
 .dp {
   border-radius: 50%;
-  max-width: 12rem;
+  max-width: 10rem;
   margin-right: 2%;
+  margin-left: 2%;
 }
 .name {
   font-weight: bold;
@@ -194,7 +195,7 @@ export default {
 .wrapper1 {
   display: flex;
   align-items: center;
-  width: 500px;
+  width: 400px;
 }
 .wrapper2 {
   display: flex;
@@ -202,11 +203,11 @@ export default {
   align-items: center;
 }
 .horizontal-line {
-  margin: 2% 20%;
+  margin: 2% 15%;
 }
 .section {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-bottom: 2ch;
 }
 .badges {
