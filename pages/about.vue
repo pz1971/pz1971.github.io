@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- <nav-bar location="about" /> -->
     <div class="outer-wrapper">
       <div class="wrapper1">
         <img class="dp" src="~/assets/dp.jpg">
@@ -176,6 +177,7 @@ export default {
 .outer-wrapper {
   display: flex;
   justify-content: center;
+  margin-top: 2ch;
 }
 .dp {
   border-radius: 50%;
