@@ -1,9 +1,9 @@
 <template>
   <div>
-    <!-- <nav-bar location="about" /> -->
+    <nav-bar location="about" />
     <div class="outer-wrapper">
       <div class="wrapper1">
-        <img class="dp" src="~/assets/dp.jpg">
+        <img class="dp" src="~/assets/dp.jpg" alt="">
         <div class="wrapper2">
           <div class="name">
             Parvez Mia
@@ -172,7 +172,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @import '~/assets/styles/variables.css';
 .outer-wrapper {
   display: flex;
