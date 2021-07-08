@@ -38,7 +38,6 @@ export default {
 .container {
   display: flex;
   list-style-type: none;
-  margin: 0% 15% 2%;
   padding: 0;
   overflow: hidden;
   background-color: rgb(61, 61, 61);

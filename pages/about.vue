@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav-bar location="about" />
+    <nav-bar location="about" class="nav" />
     <div class="outer-wrapper">
       <div class="wrapper1">
         <img class="dp" src="~/assets/dp.jpg" alt="">
@@ -174,6 +174,9 @@ export default {
 
 <style scoped>
 @import '~/assets/styles/variables.css';
+.nav {
+  margin: 0% 15% 2%;
+}
 .outer-wrapper {
   display: flex;
   justify-content: center;
@@ -220,4 +223,21 @@ export default {
   margin-left: 2ch;
 }
 
+@media only screen and (max-width: 500px) {
+  :root{
+    --small-font-size: 1rem ;
+    --medium-font-size: 1.25rem ;
+    --large-font-size: 1.5rem ;
+  }
+  .nav {
+    margin: 0% 0% 2%;
+  }
+  .wrapper1{
+    flex-direction: column;
+  }
+  .section, .horizontal-line {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 </style>

@@ -136,7 +136,7 @@ export default {
   margin: 1ch;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
   :root{
     --small-font-size: 1rem ;
     --medium-font-size: 1.25rem ;
