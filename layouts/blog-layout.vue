@@ -18,6 +18,7 @@ export default {
   margin-right: 10%;
 }
 .blog-body-container {
+  margin-top: 3ch;
   margin-left: 10%;
   margin-right: 10%;
 }
