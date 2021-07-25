@@ -1,12 +1,16 @@
 <template>
-  <article>
-    <nuxt-content :document="article" />
-  </article>
+  <div>
+    <nav-bar location="#" />
+    <article>
+      <nuxt-content :document="article" />
+    </article>
+  </div>
 </template>
 
 <script>
+import navBar from '~/components/nav-bar.vue'
 export default {
-  layout: 'blog-layout',
+  components: { navBar },
   async asyncData ({ $content, params }) {
     const article = await $content('blog', params.slug).fetch()
     return { article }

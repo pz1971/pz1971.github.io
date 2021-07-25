@@ -2,7 +2,7 @@
   <ul class="container">
     <li v-if="location!='home'" class="list-item">
       <nuxt-link to="/" class="a-link">
-        Home
+        <img class="icon" src="~/assets/dp.jpg" alt=""> Home
       </nuxt-link>
     </li>
     <li v-if="location!='about'" class="list-item">
@@ -41,6 +41,12 @@ export default {
   padding: 0;
   overflow: hidden;
   background-color: rgb(61, 61, 61);
+}
+
+.icon {
+  max-height: 1.1rem;
+  border-radius: 50%;
+  margin-right: 1ch;
 }
 
 .list-item {

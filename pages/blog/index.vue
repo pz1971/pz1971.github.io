@@ -42,6 +42,9 @@ export default {
 .the-nav-bar{
   margin-left: 15%;
   margin-right: 15%;
+  position: fixed;
+  top: 0;
+  width: 70%;
 }
 .articles{
   margin-left: 15%;
@@ -75,6 +78,9 @@ a{
   .the-nav-bar{
     margin-left: 0%;
     margin-right: 0%;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   .articles{
     margin-left: 5%;
